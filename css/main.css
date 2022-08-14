@@ -17,6 +17,7 @@ p {
   width: 360px;
   margin: 40px auto 20px;
   border-radius: 1.4em;
+  box-shadow: 3px 3px 25px #adb0b8;
 }
 .container img {
   width: 330px;
