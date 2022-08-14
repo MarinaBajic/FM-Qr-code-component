@@ -19,8 +19,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-css-positions-and-scss-_kxLkcE7uV)
-- Live Site URL: [Add live site URL here](https://frontend-mentor-qr-code-component-self.vercel.app/)
+- Solution URL: [https://www.frontendmentor.io/solutions/mobilefirst-solution-using-css-positions-and-scss-_kxLkcE7uV](https://www.frontendmentor.io/solutions/mobilefirst-solution-using-css-positions-and-scss-_kxLkcE7uV)
+- Live Site URL: [https://frontend-mentor-qr-code-component-self.vercel.app/](https://frontend-mentor-qr-code-component-self.vercel.app/)
 
 ## My process
 
