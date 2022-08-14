@@ -15,12 +15,13 @@ p {
 }
 
 
-.container {
+.main-section {
     position: relative;
+    top: 50px;
     background: white;
     height: 560px;
     width: 360px;
-    margin: 40px auto 20px;
+    margin: 0 auto;
     border-radius: 1.4em;
     box-shadow: 3px 3px 25px #adb0b8;
 
@@ -55,6 +56,7 @@ p {
 .attribution {
     font-size: 11px;
     text-align: center;
+    margin: 20px;
 
     a {
         color: hsl(228, 45%, 44%);

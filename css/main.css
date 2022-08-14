@@ -10,35 +10,36 @@ p {
   margin: 0;
 }
 
-.container {
+.main-section {
   position: relative;
+  top: 50px;
   background: white;
   height: 560px;
   width: 360px;
-  margin: 40px auto 20px;
+  margin: 0 auto;
   border-radius: 1.4em;
   box-shadow: 3px 3px 25px #adb0b8;
 }
-.container img {
+.main-section img {
   width: 330px;
   border-radius: 1em;
   position: absolute;
   top: 15px;
   left: 15px;
 }
-.container .text {
+.main-section .text {
   position: absolute;
   bottom: 40px;
   padding: 0 30px;
   text-align: center;
 }
-.container .text .subtitle {
+.main-section .text .subtitle {
   color: hsl(218deg, 44%, 22%);
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.container .text .desc {
+.main-section .text .desc {
   color: hsl(220deg, 15%, 55%);
   font-size: 17px;
 }
@@ -46,6 +47,7 @@ p {
 .attribution {
   font-size: 11px;
   text-align: center;
+  margin: 20px;
 }
 .attribution a {
   color: hsl(228deg, 45%, 44%);
