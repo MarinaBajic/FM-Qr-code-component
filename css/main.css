@@ -7,36 +7,33 @@
 body {
   font-family: "Outfit", arial;
   background: hsl(212deg, 45%, 89%);
-}
-
-main {
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1em;
+  margin: 1em;
 }
 
 main {
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
   background: white;
-  height: 560px;
-  width: 360px;
-  margin: 0 auto;
+  width: 320px;
   border-radius: 1.4em;
   box-shadow: 3px 3px 25px #adb0b8;
+  padding: 20px;
 }
 main img {
-  width: 330px;
+  width: 100%;
   border-radius: 1em;
-  position: absolute;
-  top: 15px;
-  left: 15px;
 }
 main .text {
-  position: absolute;
-  bottom: 40px;
-  padding: 0 30px;
+  margin: 15px;
   text-align: center;
 }
 main .text .subtitle {
@@ -53,7 +50,6 @@ main .text .desc {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin: 20px;
 }
 .attribution a {
   color: hsl(228deg, 45%, 44%);
