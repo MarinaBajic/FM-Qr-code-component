@@ -4,15 +4,13 @@ $light-gray: hsl(212, 45%, 89%);
 $grayish-blue: hsl(220, 15%, 55%);
 $dark-blue: hsl(218, 44%, 22%);
 
-body {
-    font-family: 'Outfit', arial;
-    background: $light-gray;
+* {
     margin: 0;
     padding: 0;
 }
-
-p {
-    margin: 0;
+body {
+    font-family: 'Outfit', arial;
+    background: $light-gray;
 }
 
 
@@ -24,7 +22,7 @@ main {
     align-items: center;
 }
 
-.main-section {
+main {
     position: relative;
     background: white;
     height: 560px;
