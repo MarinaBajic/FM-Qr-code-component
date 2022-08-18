@@ -1,52 +1,48 @@
 @import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
-body {
-  font-family: "Outfit", arial;
-  background: hsl(212deg, 45%, 89%);
+* {
   margin: 0;
   padding: 0;
 }
 
-p {
-  margin: 0;
-}
-
-main {
+body {
+  font-family: "Outfit", arial;
+  background: hsl(212deg, 45%, 89%);
   height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 1em;
+  margin: 1em;
 }
 
-.main-section {
-  position: relative;
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
   background: white;
-  height: 560px;
-  width: 360px;
-  margin: 0 auto;
+  width: 320px;
   border-radius: 1.4em;
   box-shadow: 3px 3px 25px #adb0b8;
+  padding: 20px;
 }
-.main-section img {
-  width: 330px;
+main img {
+  width: 100%;
   border-radius: 1em;
-  position: absolute;
-  top: 15px;
-  left: 15px;
 }
-.main-section .text {
-  position: absolute;
-  bottom: 40px;
-  padding: 0 30px;
+main .text {
+  margin: 15px;
   text-align: center;
 }
-.main-section .text .subtitle {
+main .text .subtitle {
   color: hsl(218deg, 44%, 22%);
   font-size: 25px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.main-section .text .desc {
+main .text .desc {
   color: hsl(220deg, 15%, 55%);
   font-size: 17px;
 }
@@ -54,7 +50,6 @@ main {
 .attribution {
   font-size: 11px;
   text-align: center;
-  margin: 20px;
 }
 .attribution a {
   color: hsl(228deg, 45%, 44%);
